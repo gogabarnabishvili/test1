@@ -1,0 +1,118 @@
+.flex {
+    display: flex;
+}
+.header-conteiner {
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-conteiner img {
+    width: 80px;
+}
+.nav-li {
+    margin-left: 40px;
+    font-size: 18px;
+}
+.header-conteiner h2 {
+    width: 40px;
+    height: 20px;
+    background-color: brown;
+    text-align: center;
+    
+}
+@media ( max-width: 414px) {
+    .header-conteiner {
+        width: 350px;
+        margin: 0  auto;
+        flex-direction: column;
+    }
+    .nav-ul {
+        flex-direction: column;
+        
+    }
+    .nav-li {
+        margin-top: 20px;
+    }
+    .header-conteiner img {
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+.section-conteiner {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.person-block {
+    max-width: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.person-block img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+.person-block li {
+    margin-left: 70px;
+}
+@media (max-width:414px){
+    .section-conteiner {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .person-block {
+        width: 300px;
+        margin-bottom: 20px;
+       
+    }
+    .person-block img {
+        width: 300px;
+       
+    }
+}
+/* registacia */
+.first-last {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+}
+.reg-form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.input-form {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 30px;
+}
+.submit {
+    max-width: 200px;
+    width: 100%;
+    background-color: green;
+    color: black;
+    font-size: 23px;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+@media (max-width: 414px){
+    .reg-form {
+        width: 350px;
+    }
+}

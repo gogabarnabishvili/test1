@@ -16,7 +16,7 @@
             <nav class="header-nav">
                 <ul class="nav-ul flex">
                     <li class="nav-li">
-                        <a href="#">მთავარი</a>
+                        <a href="index.html">მთავარი</a>
                     </li>
                     <li class="nav-li">
                         <a href="#">სამზარეულო</a>
@@ -34,13 +34,24 @@
             </nav>
         </div>
    </header> 
-   <!-- registracia-form -->
+   <!--სეცტიონ -->
    <section>
-    <form action="#">
-        <label for="myform">
-            
-        </label>
-    </form>
+     <div class="registracia-conteiner">
+        <form class="reg-form" action="#">
+            <label class="first-last" for="fname">სახელი</label>
+            <input class="input-form" type="text" id="fname" name="firstname" placeholder="შენი სახელი">
+            <label class="first-last" for="lname">გვარი</label>
+            <input class="input-form" type="text" id="lname" name="lastname" placeholder="შენი გვარი">
+            <label class="first-last" for="mypass">პაროლი</label>
+            <input class="input-form" type="password" id="mypass" name="password" placeholder="შეიყვანე პაროლი">
+            <label class="first-last" for="email">მეილი</label>
+            <input class="input-form" type="email" id="myemail" name="email" placeholder="შენი მეილი">
+            <label class="first-last" for="data">დაბადების წელი</label>
+            <input class="input-form" type="date" id="MyDate">
+            <!-- <input class="submit" type="submit" value="გაგზავნა"> -->
+            <input class="submit" type="button" value="გაგზავნა" onclick="msg()">
+        </form>
+     </div>
    </section>
 </body>
 </html>
